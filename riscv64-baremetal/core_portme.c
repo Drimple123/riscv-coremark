@@ -22,9 +22,10 @@ Original Author: Shay Gal-on
 #if CALLGRIND_RUN
 #include <valgrind/callgrind.h>
 #endif
-
+//#define USE_PUBLIC_MALLOC_WRAPPERS
 #if (MEM_METHOD==MEM_MALLOC)
-#include <malloc.h>
+//#include <malloc.h>
+#include "malloc.h"
 /* Function: portable_malloc
 	Provide malloc() functionality in a platform specific way.
 */

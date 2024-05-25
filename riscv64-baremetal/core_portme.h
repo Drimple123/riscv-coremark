@@ -15,7 +15,7 @@ limitations under the License.
 
 Original Author: Shay Gal-on
 */
-
+#include "malloc.h"
 /* Topic: Description
 	This file contains configuration constants required to execute on different platforms
 */
